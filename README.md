@@ -15,3 +15,9 @@ It creates the following items in OpenShift:
 - A Service
 - A Route
 - A couple of Secrets (used by the Route Edge TLS)
+
+To see it in action:
+
+1. Navigate to the route and the browser will display Hello World with a timestamp
+2. Look at the logs of the Pod and it will show the message New connection with a timestamp
+3. Each time you refresh the browser, the timestap is updated both in the browser and the logs
