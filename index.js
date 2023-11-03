@@ -5,7 +5,7 @@ var port = '8080';
 const server = http.createServer((req, res) => {
     if(req.url === '/') {
         //console.log('New connection...');
-        res.write('Hello World ' + new Date().toLocaleString());
+        res.write('Hello World on:' + new Date().toLocaleString());
         res.end();    
     }
 
